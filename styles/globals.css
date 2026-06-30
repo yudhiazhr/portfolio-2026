@@ -1,10 +1,24 @@
 @import "tailwindcss";
 
-body {
-    font-family: var(--font-switzer), sans-serif;
-    @apply bg-[#f9f9f9];
+@theme {
+    --font-switzer: var(--font-switzer);
+    --font-heading: var(--font-anton);
+    --font-sans: var(--font-neue-montreal)
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-switzer), sans-serif;
+body {
+    @apply bg-[#f9f9f9] font-switzer;
+}
+
+/* Hide scrollbar but keep scrolling */
+html,
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;             /* Chrome, Safari, Opera */
 }

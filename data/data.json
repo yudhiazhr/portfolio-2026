@@ -1,0 +1,24 @@
+{
+    "home": {
+        "about": {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR72FgXnO7__ZNsSUxed_qOuVYsaIO2f8KZsJ-3K3NGcw&s=10",
+            "cta": {
+                "text": "See More",
+                "link": "/about"
+            },
+            "desc": "I’m Yudhi, a Frontend Developer with 3 years of experience, blending creativity with code to craft modern and intuitive web experiences.",
+            "focus": {
+                "title": "Focus & expertise:",
+                "expertise": [
+                    "Modern Frontend Development",
+                    "Modern Websites",
+                    "Responsive & Adaptive Design",
+                    "Performance Optimization",
+                    "Accessibility",
+                    "SEO",
+                    "UI Motion"
+                ]
+            }
+        }
+    }
+}

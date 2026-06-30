@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
-import { anton, manrope, neueMontreal, switzer } from "@/lib/fonts";
+import { anton, neueMontreal, switzer } from "@/lib/fonts";
 
 export const metadata: Metadata = {
     title: "Muhammad Yudhi Azhari — Web Developer In Bogor",
@@ -15,9 +15,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${anton.variable} ${manrope.variable} ${neueMontreal.variable} ${switzer.variable} antialiased`}
+      className={`${anton.variable} ${neueMontreal.variable} ${switzer.variable} antialiased`}
     >
-        <body >
+        <body>
             {children}
         </body>
     </html>
